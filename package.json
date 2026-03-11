@@ -1,0 +1,23 @@
+{
+  "name": "ai-tools-daily",
+  "version": "1.0.0",
+  "description": "AI 工具推荐与教程 - 每天分享好用的 AI 工具",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate": "node scripts/generate-content.js",
+    "deploy": "git add . && git commit -m 'auto: new content' && git push"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "gray-matter": "4.0.3",
+    "remark": "15.0.1",
+    "remark-html": "16.0.1"
+  },
+  "keywords": ["AI", "工具", "推荐", "教程"],
+  "author": "AI Tools Daily",
+  "license": "MIT"
+}
